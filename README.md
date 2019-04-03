@@ -1,2 +1,2 @@
 # DWD
-Dynamic Web Development Class Assignments 
+Dynamic Web Development Homework Assignments 
