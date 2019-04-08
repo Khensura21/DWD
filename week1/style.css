@@ -1,0 +1,137 @@
+body, html 
+{
+  font-size: 100%;
+  font-family:"Helvetica", "sans-serif";
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding:0;
+  background: rgba(35, 201, 120, 0.924);
+
+}
+nav ul li a {
+  color:#fff;
+  text-decoration: none;
+  padding : .8rem 1rem;
+  display: block;
+  line-height: 1;
+
+}
+nav ul li {
+  border-bottom: 1px dotted #ddd;
+}
+/*style logo*/
+
+nav div:first-child {
+  background:none;
+  
+}
+
+nav div:first-child h1{
+  line-height: 0;
+  padding: .8rem 0rem;
+  text-align: center;
+}
+
+nav div:first-child h1, nav ul {
+  margin: 0;
+}
+
+
+/*style for larger screens*/
+
+
+@media only screen and (min-width: 30em) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(35, 201, 120, 0.924);
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    background: none;
+    flex-wrap: wrap;
+
+  }
+  nav div:first-child h1{
+    padding: 0;
+    margin:0 1rem;
+  }
+  nav div:first-child img{
+    height:40;
+  }
+  nav ul li {
+    border-bottom: none;
+    flex: 1 0 auto;
+  }
+  nav ul li a{
+padding: 1.2rem 1rem;
+  }
+nav ul li a:hover {
+  background: orange;
+}
+
+}
+.tofu{
+  color:white;
+
+  margin: 0px;
+}
+.kale{
+  color:white;
+
+  margin: 0px;
+}
+.stir{
+  color:white;
+
+  margin: 0px;
+}
+
+
+
+
+
+
+.row {
+  height:100vh;
+  background-image: url('./assets/tofu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: red ;
+  
+ 
+}
+
+
+.row2 {
+  height:100vh;
+  background-image: url('./assets/kale.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+ 
+}
+.row3 {
+  height:100vh;
+  background-image: url('./assets/stirfry.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+ 
+}
+
+
