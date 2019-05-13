@@ -1,3 +1,5 @@
+/*/ style for mobile screens/*/
+
 body, html 
 {
   font-size: 100%;
@@ -99,17 +101,20 @@ nav ul li a:hover {
 
 
 
-
-
 .row {
   height:100vh;
   background-image: url('./assets/tofu.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: red ;
+  color: white ;
   
  
+}
+.rowbackground{
+height:100vh;
+background-color: rgba(16,16,17,.45);
+
 }
 
 
@@ -123,6 +128,12 @@ nav ul li a:hover {
   
  
 }
+.rowbackground2{
+  height:100vh;
+  background-color: rgba(16,16,17,.45);
+    
+   
+  }
 .row3 {
   height:100vh;
   background-image: url('./assets/stirfry.jpg');
@@ -133,5 +144,10 @@ nav ul li a:hover {
   
  
 }
-
+.rowbackground3{
+  height:100vh;
+  background-color: rgba(16,16,17,.45);
+    
+   
+  }
 
