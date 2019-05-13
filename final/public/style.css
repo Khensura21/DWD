@@ -1,0 +1,209 @@
+/* / style for mobile screens/*/
+
+/* body,
+html {
+    font-size: 100%;
+    font-family: "Helvetica", "sans-serif";
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: rgba(35, 201, 120, 0.924);
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    line-height: 1;
+}
+
+nav ul li {
+    border-bottom: 1px dotted #ddd;
+}
+
+
+/*style logo*/
+/* 
+nav div:first-child {
+    background: none;
+}
+
+nav div:first-child h1 {
+    line-height: 0;
+    padding: .8rem 0rem;
+    text-align: center;
+}
+
+nav div:first-child h1,
+nav ul {
+    margin: 0;
+} */
+
+
+/*style for larger screens*/
+
+/* @media only screen and (min-width: 30em) {
+    nav {
+   
+        /* background: rgba(35, 201, 120, 0.924); */
+    /* }
+
+} */
+
+/* 
+.tofu {
+    color: white;
+    margin: 0px;
+}
+
+.kale {
+    color: white;
+    margin: 0px;
+}
+
+.stir {
+    color: white;
+    margin: 0px;
+}
+
+
+
+.row2 {
+    height: 100vh;
+    background-image: url('/assets/kale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.rowbackground2 {
+    height: 100vh;
+    background-color: rgba(16, 16, 17, .45);
+}
+
+.row3 {
+    height: 100vh;
+    background-image: url('/assets/stirfry.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.rowbackground3 {
+    height: 100vh;
+    background-color: rgba(16, 16, 17, .45);
+} */
+/* 
+.feature {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.feature_bg {
+    max-height: 850px;
+    object-fit: cover;
+    width: 100%;
+    opacity: 1;
+}
+.feature_content{
+    box-sizing: border-box;
+    max-height: 100%;
+    padding: 30px;
+} */
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: zeitung-micro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+
+}
+
+.row1 {
+    height: 100vh;
+    background-image: url('/assets/tofu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.rowbackground {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(16, 16, 17, .45);
+}
+.feature_content{
+    box-sizing: border-box;
+    max-height: 100%;
+    padding: 75px;
+    margin-top: 50;
+} 
+.feature_content p {
+    margin: 10px 5 1rem;
+    max-width: 525px;
+    margin-top: 150;
+    text-transform: uppercase;
+}
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #f44336;
+}
+.btn:hover {
+    background-color: #f44336;
+    
+}
+
+
+/* style for food  cards */
+.card-row {
+    margin: 30 -5px;
+    padding: 5px 60px;
+    align-items: center;
+    
+}
+
+.card {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    margin: 0 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  }
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+
+}
+.container {
+    padding: 20px 16px;
+    background-color: rgba(220,220,220,0.2);
+
+
+  }
+
+
+
+  
+    
+  
+   

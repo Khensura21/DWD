@@ -1,0 +1,79 @@
+/* Built on top of W3School example*/
+
+
+/* login page styling form */
+
+body {
+    background: rgb(158, 60, 94); 
+    text-align: center;
+    font-family: zeitung-micro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+form {
+    border: none;
+    width: 50%;
+    display: inline-block;
+    margin: 10px;
+
+}
+.form-align{
+    padding : 170px ;
+}
+
+/* inputs */
+
+input[type=text],
+input[type=password] { 
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    font-family: zeitung-micro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+   
+}
+
+input[type=password]:focus,input[type=text]:focus {
+    border: 4px solid #40da4d;
+  }
+
+/* style for buttons */
+
+button {
+    background-color: #40da4d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.6;
+    margin: 50px;
+    font-family: zeitung-micro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
